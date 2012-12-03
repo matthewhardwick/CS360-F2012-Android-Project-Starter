@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+		<RadioGroup
+		    android:id="@+id/color_radiogroup"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:orientation="horizontal" >
+
+			<RadioButton
+			    android:id="@+id/red"
+			    android:checked="true"
+			    android:layout_weight="1"
+            	android:layout_gravity="center|left"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/red" />
+	
+			<RadioButton
+			    android:id="@+id/green"
+			    android:layout_weight="1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/green" />
+	
+			<RadioButton
+			    android:id="@+id/blue"
+			     android:layout_weight="1"
+			    android:layout_gravity="center|right"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/blue" />
+		</RadioGroup>
+ 
+	<TableRow>
+
+		<TextView
+		    android:id="@+id/side1_textView"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/side1_text"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText
+		    android:id="@+id/side1_editText"
+		    android:text="240"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:ems="10"
+		    android:inputType="numberDecimal" >
+
+		    <requestFocus />
+		    
+		</EditText>
+	    
+	</TableRow>
+	
+	<TableRow>
+
+		<TextView
+		    android:id="@+id/side2_textView"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/side2_text"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText
+		    android:id="@+id/side2_editText"
+		    android:text="120"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:ems="10"
+		    android:inputType="numberDecimal" >
+
+		    <requestFocus />
+		    
+		</EditText>
+	    
+	</TableRow>
+	
+	<TableRow>
+
+		<TextView
+		    android:id="@+id/side3_textView"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/side3_text"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText
+		    android:id="@+id/side3_editText"
+		    android:text="280"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:ems="10"
+		    android:inputType="numberDecimal" >
+
+		    <requestFocus />
+		    
+		</EditText>
+	    
+	</TableRow>
+	
+	<TableRow>
+
+		<TextView
+		    android:id="@+id/rotation_textView"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/rotation_text"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText
+		    android:id="@+id/rotation_editText"
+		    android:text="0"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:ems="10"
+		    android:inputType="numberDecimal" >
+
+		    <requestFocus />
+		    
+		</EditText>
+	    
+	</TableRow>
+
+	<Button
+	    android:id="@+id/create_shape"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/Create" />
+
+</TableLayout>

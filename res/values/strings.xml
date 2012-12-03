@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CS360 P3 ColorForm</string>
+    <string name="menu_settings">Settings</string>
+    <string name="pick_shape">Pick a Shape to Add</string>
+    <string-array name="pick_shape_array">
+        <item>Scalene</item>
+    </string-array>
+        <string name="red">Red</string>
+        <string name="green">Green</string>
+        <string name="blue">Blue</string>
+        <string name="Create">Create</string>
+        <string name="side1_text">Side 1</string>
+        <string name="side2_text">Side 2</string>
+        <string name="side3_text">Side 3</string>
+        <string name="rotation_text">Rotation</string>
+
+</resources>
